@@ -1,0 +1,29 @@
+{
+    "name": "nick-strohm/laravel-ts3-php-framework",
+    "description": "planetteamspeak/ts3-php-framework integration for Laravel 9.0 and higher",
+    "type": "library",
+    "license": "GPL-3.0",
+    "minimum-stability": "stable",
+    "require": {
+        "laravel/framework": "^9.0",
+        "planetteamspeak/ts3-php-framework": "^1.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NickStrohm\\laravel_ts3_php_framework\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NickStrohm\\laravel_ts3_php_framework\\Providers\\TeamspeakServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Nick Strohm",
+            "email": "me@nickstrohm.de"
+        }
+    ]
+}
