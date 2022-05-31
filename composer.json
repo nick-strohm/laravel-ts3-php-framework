@@ -2,7 +2,7 @@
     "name": "nick-strohm/laravel-ts3-php-framework",
     "description": "planetteamspeak/ts3-php-framework integration for Laravel 9.0 and higher",
     "type": "library",
-    "license": "GPL-3.0",
+    "license": "GPL-3.0-only",
     "minimum-stability": "stable",
     "require": {
         "laravel/framework": "^9.0",
