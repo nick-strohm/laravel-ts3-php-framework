@@ -6,8 +6,14 @@
     "minimum-stability": "stable",
     "require": {
         "laravel/framework": "^9.0",
-        "planetteamspeak/ts3-php-framework": "^1.1.0"
+        "planetteamspeak/ts3-php-framework": "dev-dev as 1.0.34"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nick-strohm/ts3phpframework.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "NickStrohm\\laravel_ts3_php_framework\\": "src/"
