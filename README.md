@@ -39,8 +39,8 @@ After completing all steps from above you should have a configuration file under
 An example for a controller to the `/clients` endpoint that lists all connected clients.
 
 ```php
-Route::get('/users', function (\TeamSpeak3_Node_Server $ts) {
-    $result = $ts->clientList();
+Route::get('/users', function (PlanetTeamSpeak\TeamSpeak3Framework\Node\Server $server) {
+    $result = $server->clientList();
     dd($result);
 });
 ```
